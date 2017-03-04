@@ -18,7 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E9DCEC581E6B5AEB0098D501 /* ACBCocoaPythonInterpreter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ACBCocoaPythonInterpreter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9DCEC581E6B5AEB0098D501 /* Cocoa Python Interpreter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cocoa Python Interpreter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9DCEC5B1E6B5AEB0098D501 /* ACBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ACBAppDelegate.h; sourceTree = "<group>"; };
 		E9DCEC5C1E6B5AEB0098D501 /* ACBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ACBAppDelegate.m; sourceTree = "<group>"; };
 		E9DCEC5F1E6B5AEB0098D501 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -57,7 +57,7 @@
 		E9DCEC591E6B5AEB0098D501 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E9DCEC581E6B5AEB0098D501 /* ACBCocoaPythonInterpreter.app */,
+				E9DCEC581E6B5AEB0098D501 /* Cocoa Python Interpreter.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -113,7 +113,7 @@
 			);
 			name = ACBCocoaPythonInterpreter;
 			productName = ACBCocoaPythonInterpreter;
-			productReference = E9DCEC581E6B5AEB0098D501 /* ACBCocoaPythonInterpreter.app */;
+			productReference = E9DCEC581E6B5AEB0098D501 /* Cocoa Python Interpreter.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -283,7 +283,7 @@
 				INFOPLIST_FILE = ACBCocoaPythonInterpreter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.akhil.ACBCocoaPythonInterpreter;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Cocoa Python Interpreter";
 			};
 			name = Debug;
 		};
@@ -295,7 +295,7 @@
 				INFOPLIST_FILE = ACBCocoaPythonInterpreter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.akhil.ACBCocoaPythonInterpreter;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Cocoa Python Interpreter";
 			};
 			name = Release;
 		};
@@ -318,6 +318,7 @@
 				E9DCEC6B1E6B5AEB0098D501 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
