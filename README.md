@@ -1,4 +1,7 @@
-# Basic Cocoa Python Interpreter
+
+# Basic Cocoa Python Interpreter ![alt text][logo] 
+
+[logo]: /ACBCocoaPythonInterpreter/Assets.xcassets/AppIcon.appiconset/logo_32.png?raw=true "Logo"
 
 This is a Simple Mac Application which uses Cocoa(Objective C) as GUI for Python Interpreter.
 
